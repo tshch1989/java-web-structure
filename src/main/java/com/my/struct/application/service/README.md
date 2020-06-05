@@ -1,1 +1,5 @@
 业务逻辑层
+事务边界
+一般不建议service层各个service相互调用
+应该把相互调用的代码抽取到manage层
+manage层应该尽量细,一般不建议manage层相互调用
